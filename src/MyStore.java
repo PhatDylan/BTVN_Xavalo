@@ -106,7 +106,7 @@ class RequestQueue {
         //You should write here appropriate statements to complete this function.
         //---------------------------------------------------------
         if(isEmpty()){
-            throw new NoSuchElementException("Queue is already empty");
+            System.out.print("Queue is null");
         }
         tmp = front.info;
         front = front.next;
